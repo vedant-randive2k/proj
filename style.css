@@ -1,0 +1,218 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 0 auto;
+  font-family: "Heebo", sans-serif;
+  /* max-width: 800px; */
+}
+.box {
+  margin: 0 auto;
+  /* width: 80%; */
+  background-color: rgb(94, 89, 89);
+  padding: 0 1vmax 0 1vmax;
+}
+/* NAV BAR */
+.nav-bar {
+  font-size: 20px;
+  padding: 1vmax 0 1vmax 65vmax;
+  background: transparent;
+}
+.nav-bar a:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(250, 242, 229);
+}
+.nav-items {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin: 0vmax 1vmax;
+  font-weight: 700;
+  padding: 5px;
+}
+
+/* TOP BOX */
+.top {
+  /* background-image: url(bg3.jpg); */
+  background-color: black;
+  /* width: 98vw; */
+  height: 100vh;
+  background-size: cover;
+  margin: -5vmax auto;
+}
+.img1 {
+  height: 100vh;
+  margin-left: 15vmax;
+  /* width: 20vw; */
+}
+.top-para {
+  color: rgb(255, 255, 255);
+  margin: -32vmax 0 0 37vmax;
+  font-size: 40px;
+}
+.top-para hr {
+  width: 5vmax;
+  margin-left: 22vmax;
+  margin-top: 1.5vmax;
+}
+.top-para p {
+  margin-left: 12vmax;
+  color: rgb(110, 110, 110);
+  font-size: 21px;
+  padding: 2vmax;
+}
+.top-para h1 {
+  font-size: 80px;
+}
+.btn1 {
+  padding: 10px 20px;
+  font-size: 20px;
+  background-color: rgb(255, 82, 82);
+  border-radius: 8px;
+  margin-left: 21vmax;
+}
+.btn1:hover {
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+}
+
+/* FEATURED BOX */
+.featured-row {
+  display: flex;
+  margin-top: 6vmax;
+}
+.featured-row2 {
+  display: flex;
+  margin-top: 2vmax;
+}
+.coloumn {
+  height: 32vh;
+  width: 24vw;
+}
+h2 {
+  text-align: center;
+  padding-top: 1vmax;
+  font-size: 30px;
+  padding-bottom: 1vmax;
+}
+hr {
+  margin: 0.5vmax auto;
+  width: 5%;
+}
+.f-p {
+  text-align: center;
+}
+/* BUY MORE */
+h1 {
+  color: antiquewhite;
+  font-size: 50px;
+  padding: 2vmax 0 0 5vmax;
+}
+.buy-row {
+  display: flex;
+  margin-top: 2vmax;
+}
+.buy-coloumn {
+  margin-right: 2vmax;
+  margin-left: 2vmax;
+  border: solid rgb(26, 25, 25);
+  width: 50vw;
+  text-align: center;
+}
+.buy-coloumn h2 {
+  font-size: 2.5vmax;
+}
+.f-para {
+  font-size: 20px;
+}
+.img-men {
+  height: 70vh;
+  width: 28vw;
+  padding-bottom: 1vmax;
+}
+.img-woman {
+  height: 70vh;
+  width: 28vw;
+  padding-bottom: 1vmax;
+}
+.btn2 {
+  padding: 20px 40px;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  border-radius: 8px;
+  margin-top: 1vmax;
+  margin-bottom: 2vmax;
+  border: 0;
+}
+.btn2:hover {
+  background-color: rgb(179, 179, 179);
+  border: solid black;
+  cursor: pointer;
+}
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+a:hover {
+  color: black;
+}
+/* FOOTER */
+.foot-row {
+  margin: 1vmax;
+  padding-top: 3vmax;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  padding-bottom: 1vmax;
+}
+.f-col {
+  /* width: 40vw; */
+  max-width: 550px;
+  color: white;
+  margin-left: 2vmax;
+}
+.f-col h2 {
+  text-align: left;
+  font-size: 40px;
+  padding-top: 0;
+}
+.f-col p {
+  text-align: left;
+  padding-top: 1vmax;
+}
+.f-col h3 {
+  padding-right: 4vmax;
+}
+input {
+  width: 25vmax;
+  height: 2vmax;
+}
+.f-col h4 {
+  padding-top: 2vmax;
+}
+.btn3 {
+  padding: 0.5vmax 10.3vmax;
+  font-size: 20px;
+  color: white;
+  background: transparent;
+  border: solid whitesmoke;
+  margin-top: 1vmax;
+}
+.btn3:hover {
+  color: rgb(0, 0, 0);
+  background-color: aliceblue;
+  cursor: pointer;
+}
+.fab {
+  font-size: 25px;
+  margin-right: 1.5vmax;
+  padding: 10px;
+  border-radius: 100%;
+  border: solid 2px white;
+  margin-top: 1.5vmax;
+}
+.fab:hover {
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+  color: black;
+}

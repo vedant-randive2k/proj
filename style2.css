@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Heebo", sans-serif;
+}
+h1 {
+  text-align: center;
+}
+hr {
+  width: 4%;
+  margin: 0.5vmax 0 0 47vmax;
+}
+.box {
+  background-color: rgb(61, 61, 61);
+  margin: 0 auto;
+}
+.nav-bar {
+  z-index: 99;
+  position: absolute;
+  font-size: 20px;
+  padding: 1vmax 0 1vmax 65vmax;
+  background: transparent;
+}
+.nav-bar a:hover {
+  color: rgb(0, 0, 0);
+  background-color: rgb(102, 102, 102);
+}
+.nav-items {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  margin: 0vmax 1vmax;
+  font-weight: 700;
+  padding: 5px;
+}
+
+/* MOVING PIC SECTION */
+.special {
+  z-index: -1;
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+}
+.image {
+  position: absolute;
+  /* margin: -1vmax auto; */
+  height: 70%;
+  width: 100%;
+  background-image: url(bg10.jpeg);
+  background-size: 100%;
+  background-position: center;
+  cursor: zoom-in;
+  transition: 1s;
+  /* background-repeat: no-repeat; */
+}
+.image:hover {
+  background-size: 200%;
+  background-position: center;
+}
+
+/* FEATURED ROW */
+.featured-row {
+  padding: 1vmax 1.2vmax;
+  display: flex;
+}
+.coloumn {
+  height: 32vh;
+  width: 24vw;
+}
+
+/* SELL PART */
+
+.parent {
+  display: flex;
+  padding: 1vmax 0 0 6vmax;
+}
+.child {
+  background-color: rgb(44, 44, 44);
+  margin-left: 1vmax;
+  width: 16vmax;
+}
+.pic {
+  height: 35vh;
+  width: 10vw;
+  margin: 2vmax 0 0 3vmax;
+}
+.pic:hover {
+  transform: scale(1.2, 1.2);
+}
+h3 {
+  padding: 1vmax;
+  color: rgb(211, 211, 211);
+  text-align: center;
+}
+h2 {
+  color: rgb(0, 255, 0);
+  text-align: center;
+  font-size: 20px;
+  font-weight: 100;
+}
+p {
+  font-size: 10px;
+  text-align: center;
+  color: rgb(233, 233, 233);
+}
+button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
+  border-radius: 18px;
+  padding: 0.2vmax 0.5vmax;
+  border: none;
+  font-size: 15px;
+  margin: 0.2vmax 0 1vmax 4.3vmax;
+}
+button:hover {
+  background-color: rgb(231, 231, 231);
+  color: rgb(0, 0, 0);
+}
+.fas {
+  color: rgb(126, 126, 126);
+}
+.btn0 {
+  margin-top: 1vmax;
+  padding: 1vmax;
+  font-size: 25px;
+  border-radius: 10px;
+  background-color: rgb(123, 255, 47);
+  color: black;
+  margin-left: 80vmax;
+}
+.btn0:hover {
+  color: rgb(113, 255, 47);
+  background-color: black;
+}
